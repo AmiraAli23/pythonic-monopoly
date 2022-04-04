@@ -49,7 +49,7 @@ Using Hvplots, we were able to map the average house value per year, per neighbo
 ### Number of Dwelling Types Per Year
 
 Here we are analyzing the number of dwelling types per year, per neighbourhood. 
-Below are the ccharts for Scarborough - Village. 
+Below are the charts for Scarborough - Village. 
 
 <img width="913" alt="Screen Shot 2022-04-04 at 2 13 17 PM" src="https://user-images.githubusercontent.com/99091066/161605803-99bc2a51-900b-4db6-bcf4-b759d6ccfe37.png">
 
