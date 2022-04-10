@@ -19,7 +19,7 @@ Generally, all dwelling types have seen a decrease except for apartments with mo
 
 ### Shelter Costs - Owned vs Rented
 
-Here, we are aiming to visualize the average monthly shelter costs per year to identify any trends in costs and incojme.
+Here, we are aiming to visualize the average monthly shelter costs per year to identify any trends in costs and income.
 
 
 <img width="193" alt="Screen Shot 2022-04-04 at 1 58 14 PM" src="https://user-images.githubusercontent.com/99091066/161603517-31dea95d-4c09-4d06-885f-3e77f1fb7529.png">
