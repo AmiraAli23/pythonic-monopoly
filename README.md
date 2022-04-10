@@ -39,6 +39,7 @@ Both figures have increased since 2001, however the cost to own a shelter has in
 Over the span of 15 years, the value of houses in Toronto has tripled. Owning a home is an investment, as we have seen steady growth. As the value increases, the prices follow the same pattern. Those who already own a home are benefitting from the increase, while those who wish to purchase property are now hesitant because of the rising prices. 
 
 <img width="542" alt="Screen Shot 2022-04-04 at 2 02 40 PM" src="https://user-images.githubusercontent.com/99091066/161604207-308da4f1-c0b7-46f9-a95c-1f42a6b6d3f7.png">
+
  > This figure is nearly a perfect slope of 1
 
 
