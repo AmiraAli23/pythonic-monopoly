@@ -41,16 +41,15 @@ Over the span of 15 years, the value of houses in Toronto has tripled. Owning a 
 
 ### Average House Value by Neighbourhood 
 
-Using Hvplots, we were able to map the average house value per year, per neighbourhood. The figure below is specific to Danforth, and can be adjusted using the drop down menu.
+Using Hvplots, we were able to map the average house value per year, per neighbourhood. The figure below is specific to Agincourt North, and can be adjusted using the drop down menu.
 
-
-<img width="843" alt="Screen Shot 2022-04-04 at 2 08 43 PM" src="https://user-images.githubusercontent.com/99091066/161605098-149f8d1c-54a8-49dc-bad2-0e8e918176b2.png">
+<img width="789" alt="Screen Shot 2022-04-04 at 5 38 20 PM" src="https://user-images.githubusercontent.com/99091066/161636777-3b950960-6621-4ade-b153-e3f4c8326a87.png">
 
 
 ### Number of Dwelling Types Per Year
 
 Here we are analyzing the number of dwelling types per year, per neighbourhood. 
-Below are the ccharts for Scarborough - Village. 
+Below are the charts for Scarborough - Village. 
 
 <img width="913" alt="Screen Shot 2022-04-04 at 2 13 17 PM" src="https://user-images.githubusercontent.com/99091066/161605803-99bc2a51-900b-4db6-bcf4-b759d6ccfe37.png">
 
