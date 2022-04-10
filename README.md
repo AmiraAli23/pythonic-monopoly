@@ -1,9 +1,12 @@
 # Pythonic Monopoly 
 ## Toronto Rental Analysis
 
+This analysis aims to analyze Toronto's real estate market in hopes to aid customers with investing in rental properties.
+
+
 ### Rental Analysis
 
-After importing the data and using the groupby function to group by year, we plot the number of dwelling types on bar charts.
+The toronto neighbourhood census data was collected and sorted. The goal here is to analyze the number of dwelling (shelter types) by year to identify any trends. Using the groupby function to group by year, we plot the number of dwelling types on bar charts.
 
 <img width="461" alt="Screen Shot 2022-04-04 at 1 52 01 PM" src="https://user-images.githubusercontent.com/99091066/161602439-0006b872-fb0d-4d72-887c-f9425480a982.png">
 <img width="396" alt="Screen Shot 2022-04-04 at 1 52 15 PM" src="https://user-images.githubusercontent.com/99091066/161602473-499e3c66-7e86-491c-a1aa-1eb7933896a4.png">
@@ -16,7 +19,7 @@ Generally, all dwelling types have seen a decrease except for apartments with mo
 
 ### Shelter Costs - Owned vs Rented
 
-Here, we compare the costs of renting vs owning property. 
+Here, we are aiming to visualize the average monthly shelter costs per year to identify any trends in costs and incojme.
 
 
 <img width="193" alt="Screen Shot 2022-04-04 at 1 58 14 PM" src="https://user-images.githubusercontent.com/99091066/161603517-31dea95d-4c09-4d06-885f-3e77f1fb7529.png">
@@ -41,7 +44,7 @@ Over the span of 15 years, the value of houses in Toronto has tripled. Owning a 
 
 ### Average House Value by Neighbourhood 
 
-Using Hvplots, we were able to map the average house value per year, per neighbourhood. The figure below is specific to Agincourt North, and can be adjusted using the drop down menu.
+Using the neighbourhood consensus data, we were able to map the average house value per year, per neighbourhood. The figure below is specific to Agincourt North, and can be adjusted using the drop down menu.
 
 <img width="789" alt="Screen Shot 2022-04-04 at 5 38 20 PM" src="https://user-images.githubusercontent.com/99091066/161636777-3b950960-6621-4ade-b153-e3f4c8326a87.png">
 
@@ -64,7 +67,7 @@ Single detached homes are the most popular type of dwelling in the Lawrence Park
 
 ### The Top 10 Most Expensive Neighbourhoods 
 
-I grouped the data by neighbourhood and found the mean of the average house values per neighbourhood and displayed it in ascending order. The top 10 were selected and graphed on a bar plot. 
+The ovejective here was to group the data by neighbourhood, find the mean of the average house values per neighbourhood, and display it in ascending order. The top 10 were selected and graphed on a bar plot. 
 
 
 <img width="680" alt="Screen Shot 2022-04-04 at 2 19 03 PM" src="https://user-images.githubusercontent.com/99091066/161606725-f821563c-949a-412f-acba-089ebf8c8a6a.png">
@@ -80,14 +83,14 @@ Bridle Path has the highest value amongst the other neighbourhoods. When analyzi
 After importing the latitude and longitude coordinates per neighbourhood, I combined the `to_data` data frame with `nl` (neighbourgood locations) to form the `combined` dataframe.
 
 
-Using the Mapbox API, I was able to visualize the average house value per neighbourhood on a map of Toronto. Warmer colours (red, orange, yellow) correspond to a higher property value, whereas cooler colours (blues) represent lower values. The colour tone (dark/light) represents intensity: darker warms signify the highest value, whereas darker cools represent the lowest. Bigger plot points also represent a higher average house value.
+With the Mapbox API, we visualized the average house value per neighbourhood on an interactive map.   Warmer colours (red, orange, yellow) correspond to a higher property value, whereas cooler colours (blues) represent lower values. The colour tone (dark/light) represents intensity: darker warms signify the highest value, whereas darker cools represent the lowest. Bigger plot points also represent a higher average house value.
 
 
 <img width="829" alt="Screen Shot 2022-04-04 at 2 26 48 PM" src="https://user-images.githubusercontent.com/99091066/161607949-e646f5d0-8357-452e-b2a2-94001aa8529e.png">
 
 <img width="824" alt="Screen Shot 2022-04-04 at 2 27 31 PM" src="https://user-images.githubusercontent.com/99091066/161608048-d95c66cf-0d65-4f27-9e24-0a232c0d982e.png">
 
-> The darkest and greatest point on the map is Bridle Path, which makes sense when we view the analysis above. 
+> The darkest and greatest point on the map is Bridle Path, which alligns with the analysis above. 
 
 
 
